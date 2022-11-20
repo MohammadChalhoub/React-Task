@@ -1,0 +1,51 @@
+.row {
+    display: grid;
+}
+
+.card {
+    margin-inline: auto;
+    width: 600px;
+    margin: 50px;
+    height: auto;
+    border: solid;
+    border-radius: 20px;
+}
+
+.container {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    height: auto;
+}
+
+.image {
+    width: 50%;
+    height: auto;
+}
+
+.item-info {
+    margin-block: auto;
+    margin-left: 30px;
+    height: auto;
+}
+
+.rating {
+    justify-content: center;
+}
+
+.info-button {
+    position: relative;
+    background-color: #008CBA;
+    color: white;
+    margin-inline: 20px;
+    width: 100px;
+    height: 100%;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+}
