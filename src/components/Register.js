@@ -15,9 +15,15 @@ export default function Register() {
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        
         setFormErrors(validate(formValues));
         setIsSubmit(true);
+        if(Object.keys(formErrors).length === 0 && isSubmit){
+            setFormValues(initialValues)
+        }
+        else{
+            e.preventDefault();
+        }
     };
 
     useEffect(() => {
